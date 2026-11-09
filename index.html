@@ -2,14 +2,69 @@
 <html>
 <head>
 	<title>Guia de utilização do Git</title>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+	<h1 class="title">Guia de utilização do Git</h1>
+
+	<h2 class="intro">Configurar o Git Bash</h2>
+	<p class="text">Depois de ter instalado o Git no computador, abra o terminal Git Bash. Antes de começar a trabalhar nos seus projetos, vai ter de configurar a sua identidade para que o Git saiba quem está a fazer as alterações:</p>
+	<div class="comando">
+    <p>1. Definir o teu nome de utilizador:</p>
+    <code>git config --global user.name "O Teu Nome"</code>
+</div>
+
+<div class="comando">
+    <p>2. Definir o teu email:</p>
+    <code>git config --global user.email "teu@email.com"</code>
+</div>
+
+<div class="comando">
+    <p>3. Confirmar se ficou tudo bem guardado:</p>
+    <code>git config --list</code>
+</div>
+
 
 </body>
 </html>
 
 <style>
+	.title{
+		color: Orange;
+		text-align: center;
+	      }
+	.intro{
+		text-align: center;
+	      }
+	.text{
+		text-align: center;
+		font-size: 24px;
+	     }
+	body {
+    		font-family: Arial, sans-serif;
+    		max-width: 800px;
+    		margin: 0 auto;
+    		padding: 20px;
+    		background-color: #f4f4f9;
+	     }
 
+	.comando{
+    			text-align: center;
+    			margin-top: 25px;
+		}
+
+	code {
+    		background-color: #1e1e1e; 
+    		color: #00ff66;            
+    		padding: 10px 20px;
+    		border-radius: 6px;
+    		font-size: 18px;
+    		display: inline-block;
+   		font-family: monospace;
+	     }
+
+	      
 </style>
 
 
