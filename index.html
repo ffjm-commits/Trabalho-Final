@@ -9,7 +9,7 @@
 	<h1 class="title">Guia de utilização do Git</h1>
 
 	<h2 class="intro">Configurar o Git Bash</h2>
-	<p class="text">Depois de ter instalado o Git no computador, abra o terminal Git Bash. Antes de começar a trabalhar nos seus projetos, vai ter de configurar a sua identidade para que o Git saiba quem está a fazer as alterações:</p>
+	<p class="text">Depois de ter instalado o Git no computador, abre o terminal Git Bash. Antes de começar a trabalhar nos teus projetos, vais ter de configurar a tua identidade para que o Git saiba quem está a fazer as alterações:</p>
 	<div class="comando">
     <p>1. Definir o teu nome de utilizador:</p>
     <code>git config --global user.name "O Teu Nome"</code>
@@ -24,6 +24,34 @@
     <p>3. Confirmar se ficou tudo bem guardado:</p>
     <code>git config --list</code>
 </div>
+<hr class="separador">
+
+<h2 class="intro">Guardar alterações num projeto</h2>
+<p class="text">Com o Git Bash configurado, entra na pasta do teu projeto e usa estes comandos para começar a guardar versões:</p>
+
+<div class="comando">
+    <p>1. Iniciar o Git na pasta do projeto:</p>
+    <code>git init</code>
+</div>
+
+<div class="comando">
+    <p>2. Preparar todos os ficheiros alterados:</p>
+    <code>git add .</code>
+</div>
+
+<div class="comando">
+    <p>3. Guardar as alterações com uma descrição:</p>
+    <code>git commit -m "O que foi feito"</code>
+</div>
+
+<div class="comando">
+    <p>4. Enviar o código para o GitHub (se tiveres repositório ligado):</p>
+    <code>git push</code>
+</div>
+
+<footer class="rodape">
+    <p>Trabalho Final — Guia de utilização do Git | Trabalho feito por José Miguel Leitão 10º28 Nº8</p>
+</footer>
 
 
 </body>
@@ -63,8 +91,19 @@
     		display: inline-block;
    		font-family: monospace;
 	     }
+	.separador {
+    			border: 0;
+    			height: 1px;
+    			background-color: #cccccc;
+    			margin: 50px 0;
+		   }
 
-	      
+	.rodape {
+    			text-align: center;
+    			margin-top: 60px;
+    			font-size: 14px;
+    			color: #666666;
+	        }      
 </style>
 
 
